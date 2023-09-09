@@ -1,34 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Development tools
 
-## Getting Started
-
-First, run the development server:
+- [Layout (Material-Tailwind)](https://www.material-tailwind.com)
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+npm i material-tailwind
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Forms (Formik)](https://formik.org)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm i formik
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [Form-Validation (Yup)](https://www.npmjs.com/package/yup)
 
-## Learn More
+```bash
+npm i yup
+```
 
-To learn more about Next.js, take a look at the following resources:
+- [DB interaction (Mongoose)](https://www.npmjs.com/package/mongoose)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm i mongoose
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Hashing password (bcrypt)](https://www.npmjs.com/package/bcrypt)
 
-## Deploy on Vercel
+```bash
+npm i bcrypt
+npm i -D @types/bcrypt
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Email service (Mailtrap-Nodemailer)](https://mailtrap.io/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+npm i mailtrap
+npm i nodemailer
+npm i -D @types/nodemailer
+```
+
+- [Notifications (React-Toastify)](https://www.npmjs.com/package/react-toastify)
+
+```bash
+npm i react-toastify
+```
+
+- [Auth service (Next-Auth)](https://www.npmjs.com/package/next-auth/v/0.0.0-manual.ffd05533)
+
+```bash
+npm i next-auth@0.0.0-manual.ffd05533
+    "next": "^13.4.12",
+    "next-auth": "^0.0.0-manual.83c4ebd1",
+AUTH_SECRET=
+NEXTAUTH_URL=
+```

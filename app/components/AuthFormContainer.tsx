@@ -3,7 +3,7 @@ import React, { FC, FormEventHandler, ReactNode } from 'react';
 interface Props {
   title: string;
   children: ReactNode;
-  onSubmit(): FormEventHandler<HTMLFormElement>;
+  onSubmit?: FormEventHandler<HTMLFormElement>;
 }
 
 const AuthFormContainer: FC<Props> = ({ title, children, onSubmit }) => {

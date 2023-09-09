@@ -16,7 +16,7 @@ import {
 import FeeIcon from '../FeeIcon';
 import ProfileMenu from '../ProfileMenu';
 import { MobileNav } from '../MobileNav';
-import useAuth from '@/app/hooks/useAuth';
+import useAuth from '@hooks/useAuth';
 
 interface Props {
   feeStatements: number;
